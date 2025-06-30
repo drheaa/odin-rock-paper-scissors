@@ -1,32 +1,69 @@
-# Rock Paper Scissors
+# Rock Paper Scissors – The Odin Project
 
-This is a simple Rock Paper Scissors game built with **JavaScript**, as part of the [Foundations path](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) on [The Odin Project](https://www.theodinproject.com/).
-
-## Project Goal
-
-To practice writing clean and logical JavaScript functions by building a basic command-line game where the user plays Rock, Paper, Scissors against the computer.
-
-## What I’ll Learn
-
-- JavaScript functions and conditionals
-- Random number generation
-- Looping through rounds
-- Basic user interaction with `prompt()` and `console.log()`
-- (Later) DOM manipulation when UI is added
-
-## Project Status
-
-In progress — setting up the project structure and initial logic.
-
-## File Structure
-odin-rock-paper-scissors/
-├── index.html # (optional for UI later)
-├── script.js # JavaScript logic
-├── README.md # Project description
-
+This project is part of the [Foundations course](https://www.theodinproject.com/lessons/foundations-rock-paper-scissors) from The Odin Project.  
+It is the **first JavaScript project**, focusing on **variables**, **functions**, **conditional logic**, and basic **user interaction** through the browser.
 
 ---
 
-Stay tuned for updates as I build out the functionality and eventually upgrade to a browser-based version!
+## About
 
+This simple browser-based game lets a human player compete against the computer in a classic game of Rock, Paper, Scissors.  
+The game:
+- Accepts the user’s input through `prompt()`
+- Randomly generates a computer choice
+- Plays 5 rounds
+- Tracks and displays scores
+- Declares a final winner
+
+---
+
+## Personalization
+
+While following the core instructions, I added:
+- Modular function design for clarity
+- Score tracking and console output after every round
+- A final summary to declare the match winner
+
+This version is console-based but prepares the groundwork for a UI version in the next step.
+
+---
+
+## What I Learned
+
+- How to write and structure JavaScript functions
+- How to get user input using `prompt()`
+- How to generate random values with `Math.random()`
+- Conditional logic to determine win/loss/tie outcomes
+- Using loops to repeat logic
+- Debugging with `console.log()`
+
+---
+
+## Skills Demonstrated
+
+- JavaScript syntax & logic
+- Function creation and parameter handling
+- Scope awareness (global vs local variables)
+- String manipulation (`.toLowerCase()`)
+- Console-based interaction with users
+
+---
+
+## Future Enhancements
+
+- Add buttons for Rock, Paper, and Scissors
+- Update score live on the page
+- Show results and round history visually
+
+---
+
+## How to Play
+
+1. Open `index.html` in a browser
+2. Open DevTools Console (`F12` or right-click > Inspect > Console)
+3. The game will prompt you to type "Rock", "Paper", or "Scissors"
+4. See results and score updates after each round
+5. View the final outcome after 5 rounds
+
+---
 
