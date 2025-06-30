@@ -49,6 +49,13 @@ This version is console-based but prepares the groundwork for a UI version in th
 
 ---
 
+## Live Preview
+
+Link to play the game:
+https://drheaa.github.io/odin-rock-paper-scissors/
+
+---
+
 ## Future Enhancements
 
 - Add buttons for Rock, Paper, and Scissors
